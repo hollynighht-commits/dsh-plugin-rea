@@ -16,11 +16,11 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USER/dsh-plugin-rea.git"
+    "url": "git+https://github.com/hollynighht-commits/dsh-plugin-rea.git"
   },
-  "homepage": "https://github.com/USER/dsh-plugin-rea#readme",
+  "homepage": "https://github.com/hollynighht-commits/dsh-plugin-rea#readme",
   "bugs": {
-    "url": "https://github.com/USER/dsh-plugin-rea/issues"
+    "url": "https://github.com/hollynighht-commits/dsh-plugin-rea/issues"
   },
   "exports": {
     "./locale/*.json": "./locale/*.json",
