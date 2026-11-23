@@ -1,4 +1,8 @@
-# dsh-plugin-rea: connects REA's MCP server to DeepSeek Harness.
+# dsh-plugin-rea-mcp: connects REA's MCP server to DeepSeek Harness.
+#
+# Row 1 mounts this package (index.js): it reports a missing REA install with the
+# exact command that fixes it.
+# Row 2 is the stdio MCP client that publishes REA's tools as mcp__rea__*.
 #
 # REA must be installed on the machine first:
 #   npm install -g rea-agents
@@ -9,6 +13,8 @@
 # If your install uses another prefix (pnpm global, custom --prefix, asdf, Volta),
 # replace the !!js line with the absolute path printed by: npm root -g
 - insert:
+    - id: rea-prerequisite
+      name: 'dsh-plugin-rea-mcp'
     - id: rea-mcp
       name: '@deepseek-ai/dsh-mcp-client'
       config:
