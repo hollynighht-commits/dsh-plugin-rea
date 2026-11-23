@@ -1,0 +1,44 @@
+{
+  "name": "dsh-plugin-rea",
+  "version": "1.0.0",
+  "description": "REA reverse engineering for DeepSeek Harness: connects the REA MCP server (binaries, Electron/JavaScript, .NET, Android, firmware, web) to every session as mcp__rea__* tools.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "mcp",
+    "reverse-engineering",
+    "rea",
+    "binary-analysis"
+  ],
+  "license": "MIT",
+  "author": "Bruno",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USER/dsh-plugin-rea.git"
+  },
+  "homepage": "https://github.com/USER/dsh-plugin-rea#readme",
+  "bugs": {
+    "url": "https://github.com/USER/dsh-plugin-rea/issues"
+  },
+  "exports": {
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "LICENSE",
+    "icon.svg"
+  ],
+  "scripts": {
+    "pack:check": "npm pack --dry-run"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

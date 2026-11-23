@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "REA reverse engineering",
+    "description": "Connects REA's MCP server so agents can inspect local binaries, Electron and JavaScript apps, .NET assemblies, Android packages, firmware, pages and captures, with evidence behind each conclusion. Adds the mcp__rea__* tools to every session. Requires REA installed globally first (npm install -g rea-agents). Analysis runs locally; native decompilation needs Hopper, Ghidra, IDA or Kuna. Turning the bundle off removes every REA tool."
+  }
+}

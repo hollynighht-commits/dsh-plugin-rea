@@ -1,0 +1,5 @@
+node_modules/
+*.tgz
+pack.json
+pack/
+npm-debug.log*

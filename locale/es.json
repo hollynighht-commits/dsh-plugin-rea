@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Ingeniería inversa con REA",
+    "description": "Conecta el servidor MCP de REA para que los agentes inspeccionen binarios locales, aplicaciones Electron y JavaScript, ensamblados .NET, paquetes Android, firmware, páginas y capturas, con la evidencia de cada conclusión. Añade las herramientas mcp__rea__* a todas las sesiones. Requiere instalar REA antes (npm install -g rea-agents). El análisis se ejecuta en local y la descompilación nativa necesita Hopper, Ghidra, IDA o Kuna. Al desactivar el bundle desaparecen todas las herramientas de REA."
+  }
+}

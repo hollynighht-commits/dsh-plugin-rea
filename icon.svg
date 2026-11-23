@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="REA reverse engineering">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0f172a"/>
+  <g fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round">
+    <circle cx="28" cy="28" r="11"/>
+    <path d="M36.5 36.5 L46 46"/>
+  </g>
+  <g fill="#e2e8f0">
+    <rect x="22" y="24" width="3.4" height="3.4" rx="1"/>
+    <rect x="30" y="24" width="3.4" height="3.4" rx="1"/>
+    <rect x="22" y="31" width="3.4" height="3.4" rx="1"/>
+    <rect x="30" y="31" width="3.4" height="3.4" rx="1"/>
+  </g>
+</svg>
